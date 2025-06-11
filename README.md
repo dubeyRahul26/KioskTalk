@@ -24,8 +24,5 @@ A professional and minimal full-stack application for collecting customer feedba
 
 ---
 
-## Folder Structure
-
-<pre> KioskTalks/ ├── client/ # Frontend (Vite + React) │ ├── public/ │ ├── src/ │ │ ├── components/ # Reusable components │ │ ├── pages/ # Screens like Welcome, Survey, ThankYou │ │ ├── App.jsx │ │ └── main.jsx │ ├── index.html │ ├── package.json │ ├── tailwind.config.js │ └── vite.config.js │ ├── backend/ # Backend (Node + Express + MongoDB) │ ├── config/ │ │ └── db.js # MongoDB connection │ ├── models/ # Mongoose models (Session, Response) │ ├── routes/ # Express routes (API) │ ├── controllers/ # API logic │ ├── client-build/ # Built React app served statically │ ├── .env # Environment variables │ ├── server.js # Entry point │ └── package.json │ ├── .gitignore ├── README.md └── LICENSE (if any) </pre>
 
 
