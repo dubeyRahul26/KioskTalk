@@ -26,17 +26,7 @@ A professional and minimal full-stack application for collecting customer feedba
 
 ## Folder Structure
 
-project-root/
-├── client/ # Frontend (Vite + React)
-│ └── ...
-├── backend/ # Backend (Express + MongoDB)
-│ ├── routes/
-│ ├── models/
-│ ├── controllers/
-│ ├── config/
-│ ├── client-build/ # Compiled frontend copied here
-│ └── server.js
-└── README.md
+<pre> ``` KioskTalks/ ├── backend/ │ ├── server.js │ ├── config/ │ │ └── db.js │ ├── models/ │ ├── routes/ │ └── client-build/ (created after frontend build) ├── client/ │ ├── index.html │ ├── vite.config.js │ ├── src/ │ │ ├── main.jsx │ │ └── components/ │ └── tailwind.config.js ├── .gitignore ├── README.md └── package.json (if root-level config is added) ``` </pre>
 
 
 
