@@ -52,9 +52,7 @@ cd your-repo
 
 # Create a .env file in the backend/ directory 
 
-PORT=4000
-MONGO_URI=your_mongodb_connection_string
-
+<pre> ``` PORT=5000 MONGO_URI=your_mongodb_connection_string ``` </pre>
 # Then run the backend server
 
 ```bash
