@@ -24,5 +24,56 @@ A professional and minimal full-stack application for collecting customer feedba
 
 ---
 
+## 📁 Folder Structure
+
+- `/client` — React frontend (Vite)
+- `/backend` — Express backend with MongoDB (Mongoose)
+
+
+##  Getting Started
+
+### 1. Clone the Repository
+
+```bash
+
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+
+```
+
+### 2. Setup Backend
+
+```bash
+
+  cd backend
+  npm install
+
+ ```
+
+# Create a .env file in the backend/ directory 
+
+PORT=4000
+MONGO_URI=your_mongodb_connection_string
+
+# Then run the backend server
+
+```bash
+
+    npm run dev
+
+```
+  
+### 3.Setup the frontend
+
+Open a new terminal:
+
+```bash 
+    cd client 
+    npm install
+    npm run dev
+```
+
+The frontend would run on  http://localhost:3000 .
+
 
 
